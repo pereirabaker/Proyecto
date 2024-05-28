@@ -28,11 +28,7 @@ Modulo que maneja el proceso de autenticación y recuperación de contraseñas.
 **Entrar a la cuenta:**
 - Verifica si ya se ha creado un usuario. Si no, informa al usuario que debe crear una cuenta primero.
 - Solicita el correo electrónico del usuario y verifica que coincida con el del usuario registrado.
-- Una vez autenticado, presenta un submenú con las siguientes opciones:
-#### **1. Depositar dinero: Solicita la cantidad a depositar y actualiza el saldo de la cuenta.**
-#### **2. Retirar dinero: Solicita la cantidad a retirar y actualiza el saldo de la cuenta.**
-#### **3. Consultar saldo: Muestra el saldo actual de la cuenta.**
-#### **4. Salir al menú: Regresa al menú principal.**
+- Una vez autenticado, presenta un submenú con varias opciones.
   
 **Recuperacion de contraseña:**
 - Envia un mail al email ingresado, con la información de como recuperarla.
