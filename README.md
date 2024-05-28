@@ -38,7 +38,7 @@ Modulo que maneja el proceso de autenticación y recuperación de contraseñas.
 - Cierra el sistema y el escáner de entrada.
 
 ## Ejemplo de uso:
-###Ejecucion del programa.
+### Ejecucion del programa.
 **Creacion de cuenta**
 ```plaintext
 Seleccione una opción:
