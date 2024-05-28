@@ -19,7 +19,7 @@ Modulo que representa al usuario y maneja información personal y de autenticaci
 - **Login**
 Modulo que maneja el proceso de autenticación y recuperación de contraseñas.
  
-#### Menú Principal
+### Menú Principal
 **Crear una cuenta:**
 - Solicita al usuario que ingrese su nombre, cédula, correo electrónico y una nueva contraseña.
 - Crea una nueva instancia de Usuario con esta información y luego una cuenta asociada a ese usuario.
