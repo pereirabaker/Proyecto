@@ -81,7 +81,6 @@ Ingrese la cantidad a depositar:
 ```plaintext
 Transaccion realizada con exito.
 ```
-```
 -> 2
 ```plaintext
 Ingrese la cantidad a retirar:  
