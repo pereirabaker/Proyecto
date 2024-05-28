@@ -35,7 +35,7 @@ Modulo que maneja el proceso de autenticación y recuperación de contraseñas.
 ###### **4. Salir al menú: Regresa al menú principal.**
 
 **Recuperacion de contraseña:**
-- Envia un mail al email ingresado, con la información de como recuperarla.
+- Envia un correo al email ingresado, con la información de como recuperarla.
   
 **Salida:**
 - Cierra el sistema y el escáner de entrada.
