@@ -23,7 +23,6 @@ Modulo que maneja el proceso de autenticación y recuperación de contraseñas.
 **Crear una cuenta:**
 - Solicita al usuario que ingrese su nombre, cédula, correo electrónico y una nueva contraseña.
 - Crea una nueva instancia de Usuario con esta información y luego una cuenta asociada a ese usuario.
-- Mensaje de confirmación: "Cuenta creada exitosamente. Ahora puede entrar."
   
 **Entrar a la cuenta:**
 - Verifica si ya se ha creado un usuario. Si no, informa al usuario que debe crear una cuenta primero.
