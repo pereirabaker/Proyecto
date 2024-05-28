@@ -65,7 +65,7 @@ Ingrese la contraseña nueva del usuario:
 ```plaintext
 Cuenta creada exitosamente. Ahora puede entrar.
 ```
-**Deposito, retiro y estado de cuenta**
+#### **Deposito, retiro y estado de cuenta**
 ```plaintext
 Seleccione una opción:
 1. Depositar dinero
