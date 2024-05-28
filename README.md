@@ -11,7 +11,7 @@ Ofrecer operaciones bancarias básicas como depósitos, retiros y consultas de s
 Facilitar el proceso de recuperación de contraseñas para los usuarios que las olviden.
 
 ## Componentes del programa
-###### Modulos
+### Modulos
 - **Cuenta**
 Modulo que maneja la lógica de la cuenta bancaria (depósitos, retiros, consulta de saldo).
 - **Usuario**
