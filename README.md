@@ -20,21 +20,24 @@ Modulo que representa al usuario y maneja información personal y de autenticaci
 Modulo que maneja el proceso de autenticación y recuperación de contraseñas.
  
 #### Menú Principal
-##### **Crear cuenta:**
+**Crear una cuenta:**
 - Solicita al usuario que ingrese su nombre, cédula, correo electrónico y una nueva contraseña.
 - Crea una nueva instancia de Usuario con esta información y luego una cuenta asociada a ese usuario.
 - Mensaje de confirmación: "Cuenta creada exitosamente. Ahora puede entrar."
-- **Entrar a la cuenta:**
+ 
+**Entrar a la cuenta:**
 - Verifica si ya se ha creado un usuario. Si no, informa al usuario que debe crear una cuenta primero.
 - Solicita el correo electrónico del usuario y verifica que coincida con el del usuario registrado.
 - Una vez autenticado, presenta un submenú con las siguientes opciones:
-**1. Depositar dinero: Solicita la cantidad a depositar y actualiza el saldo de la cuenta.**
-**2. Retirar dinero: Solicita la cantidad a retirar y actualiza el saldo de la cuenta.**
-**3. Consultar saldo: Muestra el saldo actual de la cuenta.**
-**4. Salir al menú: Regresa al menú principal.**
-- **Recuperacion de contraseña:**
+##### **1. Depositar dinero: Solicita la cantidad a depositar y actualiza el saldo de la cuenta.**
+##### **2. Retirar dinero: Solicita la cantidad a retirar y actualiza el saldo de la cuenta.**
+##### **3. Consultar saldo: Muestra el saldo actual de la cuenta.**
+##### **4. Salir al menú: Regresa al menú principal.**
+
+**Recuperacion de contraseña:**
 - Envia un mail al email ingresado, con la información de como recuperarla.
-- **Salida:**
+  
+**Salida:**
 - Cierra el sistema y el escáner de entrada.
 
 ## Organización de Reuniones
