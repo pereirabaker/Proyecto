@@ -20,31 +20,24 @@ public class Usuario {
     public String getNombre() {
         return nombre;
     }
-
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
     public String getIdUsuario() {
         return idUsuario;
     }
-
     public void setIdUsuario(String idUsuario) {
         this.idUsuario = idUsuario;
     }
-
     public String getContrasena() {
         return contrasena;
     }
-
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
-
     public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
         this.email = email;
     }
