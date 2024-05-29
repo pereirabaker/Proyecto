@@ -1,62 +1,48 @@
 package cuentas;
-
 import usuarios.Usuario;
 
 public class Cuenta {
-    private String numeroDeCuenta;
+    // privados //
     private double saldo;
     private Usuario usuario;
-    public Cuenta(String numeroDeCuenta, Usuario usuario) {
-        this.numeroDeCuenta = numeroDeCuenta;
+
+    // contructores //
+    public Cuenta(Usuario usuario) {
         this.saldo = 0;
         this.usuario = usuario;
     }
 
-    public Cuenta() {
-    }
-
-    public String getNumeroDeCuenta() {
-        return numeroDeCuenta;
-    }
-
-    public void setNumeroDeCuenta(String numeroDeCuenta) {
-        this.numeroDeCuenta = numeroDeCuenta;
-    }
-
+    // getter y setter //
     public double getSaldo() {
         return saldo;
     }
-
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-
     public Usuario getUsuario() {
         return usuario;
     }
-
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
-
     }
+
+    // procedimiento para depositar //
     public void depositar(double cantidad){
-        if (cantidad > 0) {
+        if (cantidad > 0 & cantidad <= 400000) {
             saldo += cantidad;
             System.out.println("Transaccion realizada con exito.");
-        } else {
-            System.out.println("No tiene saldo suficiente.");
-        }
-        if (cantidad < 400000) {
+        } else if (cantidad > 400000)
             System.out.println("No es posible realizar esta transaccion sin comprobante, contacte un agente.");
-        }
-        }
-        public void retirar(double cantidad){
+        else
+            System.out.println("No es posible depositar esta cantidad.");
+    }
+
+    // procedimiento para retirar //
+    public void retirar(double cantidad){
         if (cantidad > 0 && cantidad <= saldo) {
             saldo -= cantidad;
             System.out.println("Transaccion realizada con exito.");
-        } else {
-            System.out.println("No es posible retirar esta cantidad.");
-
-        }
-        }
+        } else
+            System.out.println("No tiene saldo suficiente.");
     }
+}
