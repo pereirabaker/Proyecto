@@ -58,6 +58,5 @@ public class Usuario {
     public boolean verificarEmail(String email) {
         return this.email.equals(email);
     }
-
 }
 
